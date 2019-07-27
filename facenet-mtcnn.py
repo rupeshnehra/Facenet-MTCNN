@@ -41,7 +41,8 @@ def extract_face(filename, required_size=(160, 160)):
     return all_faces_array
 
 
-#Loading pre-trained model of face recognition in keras with file
+#Loading pre-trained model of face recognition in keras with file. Model can be downloaded from below link: 
+# https://www.kaggle.com/suicaokhoailang/facenet-keras#facenet_keras.h5
 
 facenet_model = load_model('/Users/apple/Desktop/facenet_keras.h5')
 
